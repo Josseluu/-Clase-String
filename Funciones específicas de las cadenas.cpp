@@ -3,14 +3,14 @@
 
 int main() {
 
-    std::string miCadena = "Hola, mundo!";
+    std::string miCadena = "El lenguaje C++ es poderoso!";
 
-    std::string subcadenaBuscar = "mundo";
+    std::string subcadenaBuscar = "C++";
     size_t indiceInicio = miCadena.find(subcadenaBuscar);
 
 
     if (indiceInicio != std::string::npos) {
-        std::cout << "La subcadena '" << subcadenaBuscar << "' se encuentra en el índice: " << indiceInicio << std::endl;
+        std::cout << "Subcadena encontrada en la posición '" << subcadenaBuscar << "' Subcadena no encontrada: " << indiceInicio << std::endl;
 
         std::string nuevaSubcadena = "amigo";
         miCadena.replace(indiceInicio, subcadenaBuscar.length(), nuevaSubcadena);
