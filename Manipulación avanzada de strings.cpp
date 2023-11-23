@@ -7,3 +7,4 @@ int main() {
     std::cout << "Subcadena: " << sub_str << std::endl;
     std::cout << "Cadena resultante: " << new_str << std::endl;
     return 0;
+}
